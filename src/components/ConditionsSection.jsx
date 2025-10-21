@@ -34,7 +34,7 @@ const ConditionsSection = () => {
                 <span className="text-pink-500">успешного образования</span>
             </h2>
 
-            {/* Контейнер по центру */}
+
             <div className="flex justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-[1000px]">
                     {conditionsData.map((item, index) => (
