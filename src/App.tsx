@@ -137,31 +137,31 @@ function App() {
 
             <ul className="flex flex-col gap-5">
               <li className="flex items-center gap-4">
-                <img src="../public/new-login.svg" alt="icon" className="" />
+                <img src="/new-login.svg" alt="icon" className="" />
                 <p className="text-lg text-gray-200">
                   Войдите в аккаунт по номеру телефона
                 </p>
               </li>
               <li className="flex items-center gap-4">
-                <img src="../public/new-attendance.svg" alt="icon" className="" />
+                <img src="/new-attendance.svg" alt="icon" className="" />
                 <p className="text-lg text-gray-200">
                   Просматривайте свои оценки и посещаемость
                 </p>
               </li>
               <li className="flex items-center gap-4">
-                <img src="../public/new-top.svg" alt="icon" className="" />
+                <img src="/new-top.svg" alt="icon" className="" />
                 <p className="text-lg text-gray-200">
                   Зарабатывайте монеты и продвигайтесь в ТОП
                 </p>
               </li>
               <li className="flex items-center gap-4">
-                <img src="../public/new-shop.svg" alt="icon" className="" />
+                <img src="/new-shop.svg" alt="icon" className="" />
                 <p className="text-lg text-gray-200">
                   Обменивайте монеты на призы
                 </p>
               </li>
               <li className="flex items-center gap-4">
-                <img src="../public/new-heart.svg" alt="icon" className="" />
+                <img src="/new-heart.svg" alt="icon" className="" />
                 <p className="text-lg text-gray-200">
                   Участвуйте в раздаче ценных призов
                 </p>
@@ -169,10 +169,9 @@ function App() {
             </ul>
           </div>
 
-          {/* Правая часть */}
           <div className="mt-10 lg:mt-0">
             <img
-              src="../public/new-1.webp"
+              src="/new-1.webp"
               alt="phone"
               className="lg:w-[420px]]"
             />
@@ -188,7 +187,7 @@ function App() {
 
           <div className="mt-10 lg:mt-0 ">
             <img
-              src="../public/new-2.webp"
+              src="/new-2.webp"
               alt="phone"
               className="lg:w-[420px]]"
             />
@@ -196,7 +195,7 @@ function App() {
           <div className="mt-10 lg:mt-0">
             <p className="w-[500px] text-4xl font-bold mb-[25px]">Попади в топ и забирай крутые призы</p>
             <img
-              src="../public/new-prizes.webp"
+              src="/new-prizes.webp"
               alt="phone"
               className="lg:w-[420px]]"
             />
@@ -210,7 +209,7 @@ function App() {
           <div className="mt-10 lg:mt-0">
             <p className="w-[500px] text-4xl font-bold mb-[25px]">Обменивай монеты в центре призов</p>
             <img
-              src="../public/new-3.webp"
+              src="/new-3.webp"
               alt="phone"
               className="lg:w-[420px]]"
             />
@@ -219,7 +218,7 @@ function App() {
 
           <div className="mt-10 lg:mt-0 ">
             <img
-              src="../public/new-prizes-center.webp"
+              src="/new-prizes-center.webp"
               alt="phone"
               className="lg:w-[420px]]"
             />
