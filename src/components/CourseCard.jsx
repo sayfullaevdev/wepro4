@@ -36,7 +36,7 @@ function CourseCard() {
             bgColor: "bg-[#060716]",
             svgColor: "#ffffff",
             textColor: "text-white",
-            hoverTextColor: "group-hover:text-black",// 👈 Белый текст для тёмного фона
+            hoverTextColor: "group-hover:text-black",
             hoverBtnBg: "group-hover:bg-red",
 
         },
@@ -124,7 +124,6 @@ function CourseCard() {
       href={course.link}
       className={`relative group overflow-hidden rounded-2xl aspect-square flex flex-col justify-end ${course.bgColor} transition-all duration-300 hover:shadow-[0_0_0_2px_#00000010]`}
     >
-      {/* 🔹 SVG теперь сзади, под картинкой */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 315 183"
@@ -143,7 +142,7 @@ function CourseCard() {
         />
       </svg>
 
-      {/* 🖼 Картинка поверх SVG */}
+
       <img
         src={course.image}
         alt={course.title}
@@ -151,7 +150,7 @@ function CourseCard() {
         className="absolute inset-0 w-full h-full object-cover z-10 transition-transform duration-500 group-hover:scale-105"
       />
 
-      {/* 📄 Контент поверх всего */}
+
       <div
         className={`relative z-20 p-6 transition-colors duration-300 ${course.textColor ?? "text-black"} ${course.hoverTextColor ?? ""}`}
       >

@@ -42,14 +42,14 @@ const ConditionsSection = () => {
                             key={index}
                             className="flex items-center gap-4 bg-white/5 p-5 rounded-2xl shadow-lg hover:shadow-pink-200 transition"
                         >
-                            {/* Иконка */}
+                        
                             <img
                                 src={item.icon}
                                 alt={item.title}
                                 className="object-contain"
                             />
 
-                            {/* Текст */}
+                        
                             <div>
                                 <h3 className="text-left text-lg font-semibold mb-1">{item.title}</h3>
                                 <p className="text-left text-gray-600 text-sm">{item.text}</p>

@@ -30,16 +30,4 @@ function CourseTags() {
   );
 }
 
-    
-    // <div className="flex flex-wrap gap-1   mt-5">
-    //   {courses.map((course) => (
-    //     <span
-    //       key={course.id}
-    //       className={`px-4 py-2 text-center rounded-md text-sm sm:text-base border bg-white text-black backdrop-blur-md transition hover:bg-white hover:text-black ${course.color || ""}`}
-    //     >
-    //       {course.title}
-    //     </span>
-    //   ))}
-    // </div>
- 
 export default CourseTags;
